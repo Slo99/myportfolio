@@ -48,9 +48,22 @@ table {
 	border-spacing: 0;
 }
 /*end of CSS reset*/
-body{
-font-family: 'arial', 'helvetica', sans-serif ;
-  font-size:max(2vw, 1em) }
+body{font-size:max(2vw, 1em) }
 div{padding: 50px; max-width: 60ch}
 p{font-size:1.5em;line-height: 1.6em; margin: 0 0 1.6em 0 }
-h1{font-family: 'Reem Kufi'; color:#F00; font-size: 2em; line-height: 1.6em; margin: 0 0 1.6em 0}
+h1{color:#F00; font-size: 4em; line-height: 1.6em; margin: 0 0 1.6em 0}
+h2{color:#F00; font-size: 2em; margin: 1.6em 0 1.6em 0; font-family: 'Reem kufi', sans-serif; text-transform: uppercase;}
+
+ul{list-style-type: circle; margin: 0 0 1.6em 0; }
+li{font-size: 1.5em; line-height: 1.6em; margin: 0 0 1.6em 0; }
+a:link {color:#369;font-family: 'Reem Kufi', sans-serif;}
+a:visited {color:369;}
+a:hover{color:#0cf}
+a:active {color:#f33}
+
+table{ width: 100%; margin: 0 0 1em 0 padding:.5em 1em;}
+td{border-bottom: 1px, solid#000; border-collapse:collapse; padding: 0.5em 1em; }
+
+table.type1{ width: 100%; margin: 0 0 1em 0 padding:.5em 1em;}
+table.type2 tr:nth-child (even) {background: #eee}
+table.type1 td{border-bottom: 1px, solid#000; border-collapse:collapse; padding: 0.5em 1em; }
